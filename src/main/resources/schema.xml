@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfirmTicketResponse>
+    <ConfirmTicketResult>
+        <Response>
+            <responseType>Object</responseType>
+            <IsSuccess>true</IsSuccess>
+            <ResponseCode>1</ResponseCode>
+            <ResponseMessage>Ticket Confirmation</ResponseMessage>
+            <Suggestion></Suggestion>
+        </Response>
+        <TicketDetails>
+            <rBTicketStatus>CONFIRMED</rBTicketStatus>
+            <TravelOperatorPNR>OLCYU4817</TravelOperatorPNR>
+            <Source>Chennai</Source>
+            <Destination>Bangalore</Destination>
+            <DateOfJourney>2023-01-25T00:00:00.000Z</DateOfJourney>
+            <NoofPassengers>2</NoofPassengers>
+            <DepartureTime>20:30:00</DepartureTime>
+            <Travels>Campbell Travels</Travels>
+            <CancellationReferenceTime>2023-01-25T20:00:00</CancellationReferenceTime>
+            <CancellationPolicy>
+                <cancellationPolicy>
+                    <TimeLeftInHoursLessThan>2</TimeLeftInHoursLessThan>
+                    <TimeLeftInHoursMoreThan>0</TimeLeftInHoursMoreThan>
+                    <PenaltyPercent>100</PenaltyPercent>
+                </cancellationPolicy>
+                <cancellationPolicy>
+                    <TimeLeftInHoursLessThan>4</TimeLeftInHoursLessThan>
+                    <TimeLeftInHoursMoreThan>2</TimeLeftInHoursMoreThan>
+                    <PenaltyPercent>50</PenaltyPercent>
+                </cancellationPolicy>
+                <cancellationPolicy>
+                    <TimeLeftInHoursLessThan>8</TimeLeftInHoursLessThan>
+                    <TimeLeftInHoursMoreThan>4</TimeLeftInHoursMoreThan>
+                    <PenaltyPercent>25</PenaltyPercent>
+                </cancellationPolicy>
+                <cancellationPolicy>
+                    <TimeLeftInHoursMoreThan>8</TimeLeftInHoursMoreThan>
+                    <PenaltyPercent>10</PenaltyPercent>
+                </cancellationPolicy>
+            </CancellationPolicy>
+            <BusType />
+            <BPDetails>
+                <BPName>Anna Nagar</BPName>
+                <BPTime>20:30:00</BPTime>
+                <BPAddress>Anna Nagar ,Chennai </BPAddress>
+                <BPContactNumber>123</BPContactNumber>
+            </BPDetails>
+            <DPDetails>
+                <DPName>Majestic</DPName>
+                <DPAddress>Majestic</DPAddress>
+            </DPDetails>
+            <TotalFare>1600</TotalFare>
+            <SeatNames>4,5</SeatNames>
+            <PassengerDetails>
+                <Passenger>
+                    <PGender>M</PGender>
+                    <PSeatName>4</PSeatName>
+                </Passenger>
+                <Passenger>
+                    <PGender>M</PGender>
+                    <PSeatName>5</PSeatName>
+                </Passenger>
+                <PassengerName>ABhishek Shahi, Testing</PassengerName>
+                <PMobile>805013585</PMobile>
+                <PEmail>abhishek1.shahi@paytm.com</PEmail>
+            </PassengerDetails>
+            <CommissionAmount>226.56</CommissionAmount>
+        </TicketDetails>
+    </ConfirmTicketResult>
+</ConfirmTicketResponse>
